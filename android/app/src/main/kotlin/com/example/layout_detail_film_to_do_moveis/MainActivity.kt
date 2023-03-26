@@ -1,4 +1,4 @@
-package com.example.layout_detail_film_to_do_moveis
+package com.example.ToDoMovieDetails
 
 import io.flutter.embedding.android.FlutterActivity
 

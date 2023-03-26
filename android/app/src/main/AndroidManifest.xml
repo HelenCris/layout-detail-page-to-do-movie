@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.layout_detail_film_to_do_moveis">
+    package="com.example.ToDoMovieDetails">
    <application
-        android:label="layout_detail_film_to_do_moveis"
+        android:label="ToDoMovieDetails"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
