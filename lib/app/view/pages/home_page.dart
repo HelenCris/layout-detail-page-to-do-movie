@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../models/film_model.dart';
 import '../../service/film_service.dart';
@@ -21,7 +22,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final filmService = FilmService();
+  FilmService filmService = Get.put(FilmService());
 
   late ConnectivityResult result;
   late StreamSubscription subscription;
