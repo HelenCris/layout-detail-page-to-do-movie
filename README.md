@@ -15,7 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Dependências:
   - [Dio](https://pub.dev/packages/dio)
   - [Connectivity plus](https://pub.dev/packages/connectivity_plus)
-  - [Provider](https://pub.dev/packages/provider)
+  - [Get](https://pub.dev/packages/get)
 
 ### 🎲 Rodando o Aplicativo
 
